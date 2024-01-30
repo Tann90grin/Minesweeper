@@ -133,7 +133,7 @@ public class mineSweeper extends JFrame{
 				e.printStackTrace();
 			}
 			try {
-				con=DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/mydemo ","root","henry7086");
+				con=DriverManager.getConnection(" "," "," ");
 				con.setAutoCommit(true);
 				System.out.println("Connected");
 			}catch (SQLException e){
